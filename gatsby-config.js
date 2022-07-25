@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-datocms`,
       options: { apiToken: `81166be15365f9913b8ad0085c3809` },
