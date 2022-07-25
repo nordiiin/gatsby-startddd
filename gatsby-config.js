@@ -9,11 +9,8 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+      resolve: `gatsby-source-datocms`,
+      options: { apiToken: `81166be15365f9913b8ad0085c3809` },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
